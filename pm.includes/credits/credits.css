@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Assistant|Cuprum|Khand);
+.creditsWrapper {
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 740px;
+	left: 0px;
+	text-align: center;
+}
+.creditsList {
+	display: block;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+.creditsTitle {
+	display: block;
+	font-family: Cuprum;
+	font-weight: bold;
+	font-size: 70px;
+	color: #ff9900;
+	padding: 0 0 40px 0;
+	text-transform: uppercase;
+}
+.creditsSubTitle, .creditsDonoTitle, .creditsFollowTitle, .creditsHostTitle, .creditsRaidTitle, .creditsModTitle, .creditsBanTitle {
+	display: block;
+	font-family: Assistant;
+	font-weight: bold;
+	font-size: 42px;
+	color: #ff9900;
+	padding: 40px 0 40px 0;
+	text-transform: uppercase;
+}
+.creditSubGroup, .creditDonoGroup, .creditFollowGroup, .creditHostGroup, .creditRaidGroup, .creditModGroup, .creditBanGroup {
+	display: block;
+	font-family: Khand;
+	font-weight: bold;
+	font-size: 36px;
+	color: #297bd6;
+	padding: 8px 8px 8px 8px;
+}
+.creditsSub, .creditsDono, .creditsFollow, .creditsHost, .creditsRaid, .creditsMod, .creditsBan {
+	display: inline-block;
+	font-family: Khand;
+	font-weight: bold;
+	font-size: 36px;
+	color: #297bd6;
+	padding: 8px 20px 8px 20px;
+}
+.creditsFooterImages {
+	display: block;
+	padding-top: 100px;
+	vertical-align: top;
+}
+.creditsFooterImage {
+	display: inline-block;
+	vertical-align: top;
+	margin: 40px 40px 0 40px;
+	font-family: Khand;
+	font-weight: bold;
+	font-size: 36px;
+	color: #ffffff;
+}
+.creditsFooterImage img {
+	width: 200px;
+	height: auto;
+	vertical-align: middle;
+}
+.creditsFinale {
+	display: block;
+	position: relative;
+	padding-top: 100px;
+}
+.creditsFinale img {
+
+}
+.creditsEndTitle {
+	display: block;
+	position: absolute;
+	top: 400px;
+	left: 75px;
+	font-family: Cuprum;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 42px;
+	color: #ff9900;
+	transform: rotate(-20deg);
+}
