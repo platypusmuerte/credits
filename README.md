@@ -65,6 +65,11 @@ After setting up, close Firebot and refresh your source just to be sure (OBS, xS
 - To wipe the credits for a new stream, or at the end of the stream use !wc (you can whisper this to yourself too)
 - To start the credits at the end of the stream, type !rollcredits.
 
+I switch to a scene w music when I run the credits.
+
+# Timing
+The timing, for now is based off total number of names. Its a best guess, and you can tweak it in the credits.js file around line 163. But for reference default is 60 seconds, > 100 is 90 seconds, > 200 is 120 seconds, and so on. Again, best guess.
+
 # Notes
 Im sure there will be issues. This is just a script I wrote for myself, and wanted to share with the rest of my friends at Mixer.
 
